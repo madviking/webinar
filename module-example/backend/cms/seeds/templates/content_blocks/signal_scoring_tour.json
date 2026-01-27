@@ -1,0 +1,130 @@
+{
+  "key": "signal_scoring_tour",
+  "title": "Signal Scoring walkthrough",
+  "useModalOverlay": true,
+  "defaultStepOptions": {
+    "cancelIcon": true,
+    "canClickTarget": false,
+    "scrollTo": {
+      "behavior": "smooth",
+      "block": "center"
+    }
+  },
+  "steps": [
+    {
+      "id": "intro",
+      "title": "Tune deterministic scoring",
+      "text": "This page lets you tune deterministic signal scores for assignments: your stack, extra rules, and a live breakdown.",
+      "attachTo": {
+        "element": "[data-tour-id='signal-scoring-header']",
+        "on": "bottom"
+      },
+      "buttons": [
+        {
+          "type": "cancel",
+          "text": "Skip tour"
+        },
+        {
+          "type": "next",
+          "text": "Next"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "Set your target stack",
+      "text": "Add or edit target technologies and optional per-tech scores. Toggle editing to adjust weights; rarity badges come from system popularity.",
+      "attachTo": {
+        "element": "[data-tour-id='signal-scoring-tech-stack']",
+        "on": "top"
+      },
+      "buttons": [
+        {
+          "type": "back",
+          "text": "Back"
+        },
+        {
+          "type": "next",
+          "text": "Next"
+        }
+      ]
+    },
+    {
+      "id": "rules",
+      "title": "Additional signal rules",
+      "text": "Each rule saves inline. Scoring mode adds/subtracts points; inclusion/exclusion act as gates. Coverage bars show how often a rule applies.",
+      "attachTo": {
+        "element": "[data-tour-id='signal-scoring-rules']",
+        "on": "top"
+      },
+      "buttons": [
+        {
+          "type": "back",
+          "text": "Back"
+        },
+        {
+          "type": "next",
+          "text": "Next"
+        }
+      ]
+    },
+    {
+      "id": "advice",
+      "title": "LLM recommendation + quota fill",
+      "text": "Use Update now to refresh recommendations. The quota bar combines recent tech-matched jobs to project monthly throughput vs your limit.",
+      "attachTo": {
+        "element": "[data-tour-id='signal-scoring-advice']",
+        "on": "auto"
+      },
+      "buttons": [
+        {
+          "type": "back",
+          "text": "Back"
+        },
+        {
+          "type": "next",
+          "text": "Next"
+        }
+      ]
+    },
+    {
+      "id": "breakdown",
+      "title": "Inspect a scoring path",
+      "text": "Pick a representative job to see deterministic rule contributions, reasons, and timing. The total badge mirrors what assignments use.",
+      "attachTo": {
+        "element": "[data-tour-id='signal-scoring-breakdown']",
+        "on": "top"
+      },
+      "buttons": [
+        {
+          "type": "back",
+          "text": "Back"
+        },
+        {
+          "type": "next",
+          "text": "Next"
+        }
+      ]
+    },
+    {
+      "id": "relaunch",
+      "title": "Replay anytime",
+      "text": "Use the question mark in the corner to reopen this walkthrough later. We only auto-show when the content changes or you have not seen it yet.",
+      "attachTo": {
+        "element": "[data-tour-id='signal-scoring-tour-trigger']",
+        "on": "left"
+      },
+      "buttons": [
+        {
+          "type": "back",
+          "text": "Back"
+        },
+        {
+          "type": "finish",
+          "text": "Got it"
+        }
+      ]
+    }
+  ]
+}
+

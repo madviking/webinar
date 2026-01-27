@@ -1,0 +1,37 @@
+[
+  {
+    "key": "terms_of_service",
+    "category": "content",
+    "title": "Queast – Beta Terms of Service & Disclaimer",
+    "content_path": "content_blocks/terms_of_service.md",
+    "description": "Legal terms shown to users during onboarding and login",
+    "variables": []
+  },
+  {
+    "key": "service_welcome",
+    "category": "content",
+    "title": "Service Welcome Text",
+    "content_path": "content_blocks/service_welcome.html",
+    "description": "Shown on welcome screens or onboarding areas",
+    "variables": []
+  },
+  {
+    "key": "dashboard_intro",
+    "category": "content",
+    "title": "Dashboard Introductory Text",
+    "content_path": "content_blocks/dashboard_intro.html",
+    "description": "Shown at top of dashboard for new tenants/users",
+    "variables": [
+      "user_name"
+    ]
+  },
+  {
+    "key": "signal_scoring_tour",
+    "category": "product_tour",
+    "title": "Signal Scoring product tour",
+    "content_path": "content_blocks/signal_scoring_tour.json",
+    "description": "Shepherd.js JSON config for the Signal Scoring page walkthrough",
+    "variables": []
+  }
+]
+
