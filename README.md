@@ -1,6 +1,6 @@
 # webinar
 
-This repository contains examples mentioned in LLM Driven development webinar on 27th of January, 2026. 
+This repository contains examples mentioned in LLM Driven development webinar on 27th of January, 2026 and the engineering session on 3rd of February 2026.
 
 ## Sign up for next webinars!
 * [AI empovered devs events](https://events.aiempowered.dev/)
